@@ -1,0 +1,165 @@
+﻿<Window x:Class="LabWpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Bold>ПЕРМСКИЙ КРАЙ</Bold>
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9">
+                        <Italic>регион России</Italic>
+                    </Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Span Background="Azure">
+                        <Bold>
+                            <Run Foreground="BlueViolet">Пе́рмский край</Run>
+                        </Bold> — субъект Российской Федерации, расположенный на востоке Европейской части России[8]. Входит в Приволжский федеральный округ и Уральский экономический район. Административный центр края — город Пермь. Площадь 160 237 км². Население 2 555 042[7] чел. (2022). В состав края входит Коми-Пермяцкий округ.
+Находится в восточной части Восточно-Европейской равнины и на западных склонах Среднего и Северного Урала, в бассейне реки Кама[8]. Граничит на севере с Республикой Коми, на востоке со Свердловской областью, на юге с Башкортостаном, на западе с Удмуртией, на северо-западе с Кировской областью[9].
+Образован 1 декабря 2005 года в результате объединения Пермской области и Коми-Пермяцкого автономного округа[10]. Историческим предшественником региона была образованная в 1796 году Пермская губерния, которой, в свою очередь, предшествовала Пермь Великая.
+Административно-территориальное деление: 33 административных района; 25 городов, из них 14 краевого и 11 районного значения; 26 посёлков городского типа; закрытое административно-территориальное образование Звёздный и Коми-Пермяцкий округ как административно-территориальная единица с особым статусом[11].
+                    </Span>
+                </Paragraph>
+                <Section FontSize="20">
+
+                    <List MarkerStyle="Box">
+                        <ListItem>
+                            <Paragraph>
+                                <Run Background="WhiteSmoke">1.	География</Run>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <Run Background="Blue">2.	Рельеф</Run>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <Run Background="Red">3.	Реки</Run>
+                            </Paragraph>
+                        </ListItem>
+                    </List>
+                </Section>
+                <Table>
+                        <Table.Columns>
+                            <TableColumn Width="0.45*"/>
+                            <TableColumn Width="1*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        1. География
+                                    </Paragraph>
+                                    <Paragraph>
+                                        Физическая география Пермского края
+Физическая карта Пермского края
+Пермский край расположен на восточной окраине Русской равнины и западном склоне Уральских гор, на стыке двух частей света — Европы и Азии[9], причём 99,8 % площади края расположено в Европе, 0,2 % — в Азии. Максимальная протяжённость с севера на юг 645 км, с запада на восток — почти 420 км. Границы края извилисты и имеют протяжённость более 2,2 тыс. км[9].
+                                    Крайние точки
+на севере — 61°39' с. ш., гора Пура-Мунит (1094 м);
+на юге — 56°06' с. ш. (около бывшей деревни Ельник Биявашского сельского совета Октябрьского района);
+на западе — 51°47' в. д., в 1 км от Высоты 236, на водоразделе рек Лэпью, Пелес, Кажим;
+на востоке — 59°39' в. д., высочайшая вершина хребта Хоза-Тумп, гора Рахт-Сори-Сяхл.
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater  Width="900" HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Image Source="Data/Geo.jpg"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="0.45*"/>
+                            <TableColumn Width="1*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        2. Рельеф
+                                    </Paragraph>
+                                    <Paragraph>
+                                        Рельеф Пермского края сформировался при образовании Уральских гор около 250 миллионов лет назад и в ходе последующего накопления осадочных пород на кристаллическом фундаменте платформы[14].
+В западной части края (около 85 % его территории), расположенной на восточной окраине Русской равнины, преобладает низменный и равнинный рельеф.
+В восточной части края (около 15 % его территории), где проходят Уральские горы, рельеф имеет горный характер: среднегорный для Северного Урала и низкогорный для Среднего Урала. Граница между ними проводится по подножию горы Ослянка (59º с. ш.).
+Наиболее высокие горы расположены на севере края:
+Тулымский камень (1496 м) — высочайшая вершина в Пермском крае;
+Ишерим (1331 м);
+Молебный камень (1274 м);
+Мартай (1132 м).
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater  Width="900" HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Image Source="Data/Tul.jpg"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="0.45*"/>
+                            <TableColumn Width="1*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        3. Реки
+                                    </Paragraph>
+                                    <Paragraph>
+                                        Реки Пермского края относятся к бассейну Камы, крупнейшего притока Волги. В Пермском крае более 29 тысяч рек общей длиной свыше 90 тысяч километров[15][16].
+Две реки в Пермском крае относятся к большим (длиной более 500 км), — это Кама (1805 км) и её левый приток Чусовая (592 км). 40 рек длиной от 100 км. Крупнейшие из них:
+Кама — 1805 км.
+Чусовая — 592 км.
+Сылва — 493 км.
+Вишера — 415 км.
+Колва — 460 км.
+Яйва — 304 км.
+Косьва — 283 км.
+Коса — 267 км.
+Весляна — 266 км.
+Иньва — 257 км.
+Обва — 247 км.
+Малые реки (длиной менее 100 км) составляют подавляющее большинство рек края. Некоторые из них имеют историческое значение, например, река Егошиха, в устье которой был основан город Пермь.
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Floater  Width="900" HorizontalAlignment="Right">
+                                            <BlockUIContainer>
+                                                <Image Source="Data/Riv.jpg"/>
+                                            </BlockUIContainer>
+                                        </Floater>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                    <BlockUIContainer>
+                        <StackPanel>
+                            <TextBlock Text="Нажми, если понравилось"/>
+                            <Button Content="Нравится!"/>
+                        </StackPanel>
+                    </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
